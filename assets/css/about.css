@@ -1,0 +1,70 @@
+body{
+    background-color:white;
+}
+.hztl{
+list-style-type: none;
+padding:0;
+display: flex;
+gap: 20px;
+margin: 0;
+}
+.bordure{
+background-color:#FB5607;
+border-radius: 50px;
+font-size: 16PX;
+cursor: auto;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;width: 50px;
+}
+.droite{
+    text-align: right;
+    flex: 1;
+}
+.gauche{
+    text-align: left;
+    flex: 1;
+}
+
+.container2{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;width: 50px;
+}
+.droite{
+    text-align: right;
+    flex: 1;
+    .bordure{
+        background-color:#FB5607;
+        border-radius: 50px;
+        font-size: 16PX;
+        cursor: auto;
+
+        }
+}
+.gauche{
+    text-align: left;
+    flex: 1;
+}
+
+.contain{
+    display: flex;
+    justify-content: center;
+}
+
+#C{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    color: gray;
+    border: radius 4px;outline:gray;
+    text-align: right;
+    display: flex;width: 5px;
+} 
+
+
+.Milieu{
+    display: flex;
+    justify-content: center;
+}
