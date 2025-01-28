@@ -1,0 +1,250 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 130px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(188, 185, 185, 0.2);
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.navbar{
+    display: flex;
+    gap: 40px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #959494;
+}
+.navbar a:hover{
+    color: #fb5607;
+}
+.search-bar input {
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 100px;
+    border: 1px solid #959494;
+    border-radius: 20px;
+}
+.header-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #fb5607;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+}
+.header-button:hover {
+    background-color: #ff7b25;
+}
+
+.icon img{
+    height: 15px;
+    width: 20px;
+}
+
+
+
+/* SECTION OUR STORY = modification*/ 
+.containerS1{
+    background-color: #f7f7f7; /* couleur de l'arrière plan*/ 
+    display: flex; /* mettre les éléments l'un à coté de l'autre*/ 
+    gap: 125px; /*mettre 2 éléments l'un à coté de l'autre*/ 
+    padding: 40px 115px; /*espace entre la bordure et le contenu*/ 
+}
+.M2{
+    padding-left: 50PX;/*espace entre la bordure et le contenu à gauche*/ 
+}
+.M1 h5{
+    color: #6492fe; /* la couleur de texte*/ 
+    margin-bottom: -16px; /* reduit l'espace vers le bas entre 2 éléments*/ 
+}
+.M2{
+    color: #959494; /* couleur du texte*/ 
+}
+/* SECTION LEADRESHIP*/
+    .containerS2{
+    background-color: white; /* SECTION OUR STORY = modification*/ 
+    display: flex; /* SECTION OUR STORY = modification*/ 
+    gap: 125px;  /* SECTION OUR STORY = modification*/ 
+    padding: 40px 115px;  /* SECTION OUR STORY = modification*/ 
+}
+.M3{
+    color: #6492fe;  /* SECTION OUR STORY = modification*/ 
+    margin-bottom: -16px; /* reduit l'espace vers le bas entre 2 éléments*/ 
+}
+.M4{
+    color: #959494;  /* SECTION OUR STORY = modification*/ 
+}
+.M5{
+    margin-top: -30px; /* reduit l'espace vers le haut entre 2 éléments*/ 
+}
+.M6{
+    background-color:#FB5607; /* SECTION OUR STORY = modification*/ 
+    color: white; /* SECTION OUR STORY = modification*/ 
+    border: none; /* mettre les bordures (ici c'est utilisé pour ne pas mettre les bordures*/ 
+    border-radius: 50px; /* arrondis les bordures*/ 
+    align-items: center; /*centrer le texte*/ 
+}
+
+
+/* Debut de la section 6*/
+.section6{
+    background-color: #F7F7F7;
+    padding: 60px 135px;
+}
+.titre5{
+    text-align: center;
+}
+
+.horizontal-cards-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.horizontal-card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 300px;
+}
+
+.card-icon {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 18px bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #959494;
+}
+
+/*Fin de la section 6*/
+
+/*SECTION LEADING TEAM */
+.containerS3{
+    background-color: white; /* SECTION OUR STORY = modification*/ 
+    padding: 40px 115px; /* SECTION OUR STORY = modification*/ 
+    position: relative;  /*position absolue du texte*/ 
+    top: 80px; /*position vers le haut*/ 
+}
+.M7{
+    position: absolute; /* SECTION OUR STORY = modification*/ 
+    left: 50%; /* SECTION OUR STORY = modification*/ 
+    transform: translate(-50%, -50%);  /* permet de deplacer l'élément de 50% de sa propre largeur et hateur, ce qui permet de centrer parfaitement*/ 
+    text-align: center; /* SECTION OUR STORY = modification*/ 
+}
+.M8{
+    color:#6492fe; /* SECTION OUR STORY = modification*/ 
+    margin-bottom: -17px; /* SECTION OUR STORY = modification*/ 
+    
+}
+.M9{
+    display: flex; /* SECTION OUR STORY = modification*/ 
+    justify-content: space-between; /* SECTION OUR STORY = modification*/ 
+    padding: 10px 20px; /* SECTION OUR STORY = modification*/ 
+    margin: 180px; /* */ 
+}
+
+
+/*Debut du footer*/
+.footer{
+    background-color: #111725;
+    padding: 80px 135px;
+    
+}
+.footer1{
+    display: flex;
+    gap: 650px;
+}
+.text-footer{
+    color: #FFFFFF;
+}
+.button-footer img{
+    height: 15px;
+    width: 20px;
+}
+.footer2{
+    display: flex;
+    gap: 100px;
+    margin-top: 40px;
+}
+.contact-us{
+    color: #FFFFFF;
+}
+.contact-us p{
+    color: #cdcdcd;
+}
+.popular-searches{
+    color: #ffffff;
+}
+
+.popular-searches p{
+    color: #cdcdcd;
+}
+.quick-links{
+    color: #FFFFFF;
+    
+}
+.quick-links a{
+    text-decoration: none;
+    color: #FFFFFF;  
+}
+.quick-links li {
+    margin-bottom: 10px;
+}
+.quick-links a{
+    color: #cdcdcd;
+}
+.quick-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+.newsletter{
+    color: #FFFFFF;
+}
+.newsletter p{
+    color: #cdcdcd;
+}
+.rounded-block{
+    background-color: #ffffff;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.rounded-block img{
+    height: 30px;
+    width: 30px;
+    
+}
+.all-rights{
+    color: #FFFFFF;
+    margin-top: 100px;
+    text-align: center;
+}
+.nom-couleur{
+    color:#fb5607 ;
+}
