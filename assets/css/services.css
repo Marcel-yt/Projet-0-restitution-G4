@@ -1,0 +1,558 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 130px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(188, 185, 185, 0.2);
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.navbar{
+    display: flex;
+    gap: 40px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #959494;
+}
+.navbar a:hover{
+    color: #fb5607;
+}
+.search-bar input {
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 100px;
+    border: 1px solid #959494;
+    border-radius: 20px;
+}
+.header-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #fb5607;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+}
+.header-button:hover {
+    background-color: #ff7b25;
+}
+
+.icon img{
+    height: 15px;
+    width: 20px;
+}
+
+/* Debut de la Section 1 */
+/* Titles section - aligned to the left */
+.sect1{
+    padding-bottom: 100px;
+    padding-top: 50px;
+    background-color: #F7F7F7;
+}
+.Titles {
+    display: flex;
+    flex-direction: column;  /* Stack titles vertically */
+    padding: 20px;  /* Space around titles */
+    margin-left: 100px ;
+}
+
+.P1{
+    background-color: #F7F7F7;
+}
+.Titles h2{
+    margin: 0;  /* Remove default margin from headings */
+    margin-bottom: 10px; /* Space between titles */
+    font-size: 15px;         /* Title font size */
+    color: cornflowerblue;
+    margin-left: 3px ;
+}
+
+.Titles h1{
+    font-size: 25px;
+    margin-top: 1px;
+}
+
+.sec{
+    display: flex;
+    justify-content: space-between;
+    width: 1000PX;
+    margin: auto;
+}
+
+.first{
+    width: 300px;
+    border-radius: 15px;
+    margin-top: 30px;
+    
+}
+
+.second{
+    width: 300px;
+    border-radius: 15px;
+}
+
+.third{
+    width: 230px;
+    height: 130px;
+    border-radius: 15px;
+}
+
+.tex{
+    padding-top: 70px;
+    
+}
+
+
+.tex3{
+    padding-top: 40px;
+    margin-left: 0px;
+}
+.sous-sec{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: auto;
+}
+
+
+.description{
+    margin-left: 45px;
+    color: darkgray;
+    margin-top: 30px;
+    font-size: 13px;
+   
+}
+
+
+.read-more-btn {
+    background-color:  #ff7f32; /* Orange */;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 100px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 100px;
+    transform: translateX(-50%);
+  }
+
+  .arrow {
+    margin-left: 8px;
+    font-size: 15px; /* Increase the font size here */
+  }
+
+  /* End of Section 1 */
+
+    /* Debut de la Section 2 */
+
+/* styles.css */
+
+/* Container to hold the images */
+.sect2{
+    padding-bottom: 100px;
+    padding-top: 60px;
+    background-color: #FFFFFF
+}
+.image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  /* Two equal-width columns */
+    grid-template-rows: 1fr 1fr;     /* Two equal-height rows */
+    gap: 20px;                       /* Space between the images */
+    width: 100%;
+    max-width: 600px;                /* Set a max width for the container */
+    margin:auto;               /* Center the container on the page */
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  /* Style for each image item */
+  .image-item {
+    display: flex;
+    flex-direction: column;  /* Stack the image and title vertically */
+    align-items: left;     /* Center them horizontally */
+  }
+  
+  /* Style for the images */
+  .image-item img {
+    width: 300px;             /* Make images fill the grid cells */
+    height: 100%;            /* Ensure they stretch to full height */
+    object-fit: cover;       /* Ensure the image covers the area without distorting */
+    border-radius: 10px;     /* Rounded corners for the images */
+    box-sizing: border-box;  /* Ensure padding and borders are included in width/height */
+    max-width: 100%;         /* Prevent images from overflowing */
+    max-height: 100%;        /* Prevent images from overflowing */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+  }
+  
+  /* Style for the titles under each image */
+  .title {
+    margin-top: 10px;        /* Add space between the image and the title */
+    font-size: 18px;         /* Title font size */
+    font-weight: bold;       /* Make title text bold */
+    text-align: left;      /* Center the title text */
+    margin: 20;
+    padding: 20;
+  }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Push the last row to the bottom */
+  width: 100%; /* Fill the container */
+  height: 100%; /* Ensure the content area fills the viewport */
+}
+
+.row {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  margin: 20;
+  padding: 20;
+}
+
+
+
+.btn {
+  background-color:  #ff7f32; /* Orange */;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.arrow {
+  margin-left: 8px;
+  font-size: 15px; /* Increase the font size here */
+}
+
+.title, .description {
+  margin: 0px;
+}
+
+.title {
+  margin-left: 20px;
+  font-size: 13px
+}
+
+.description {
+  margin-left: 20px;
+  font-size: 10px;
+  color: dimgrey;
+}
+
+.title1, .description1 {
+  margin: 5px;
+}
+
+.title1, .description1 {
+  text-align: center;
+}
+.title1 {
+  font-size: 22px;
+
+}
+
+.description1 {
+  color: royalblue;
+  font-size: 10px;
+}
+
+.title1, .image-container{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.image-item, .btn{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.image-container, .btn{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.title, .btn{
+ gap: 0px;
+}
+
+
+/* Debut de la section 3*/
+.section6{
+    background-color: #F7F7F7;
+    padding: 60px 135px;
+}
+.titre5{
+    text-align: center;
+}
+
+.horizontal-cards-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.horizontal-card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 300px;
+}
+
+.card-icon {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 18px bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #959494;
+}
+
+/*Fin de la section 3*/
+
+/* Debut de la section 4*/
+
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+}
+
+.container {
+    display: flex; /* Flexbox container */
+    justify-content: space-between; /* Place items on opposite sides */
+    align-items: center; /* Center the items vertically */
+    padding-top: 20px; /* Add padding around the content */
+    height: 100vh; /* Full viewport height */
+    
+}
+
+
+/* Content on the left side */
+
+.left-side {
+    flex: 1; /* Takes up 1 part of the available space */
+    padding: 20px;
+    max-width: 100%; /* Make sure the image is responsive */
+    width: 200px;  /* Set width of the image */
+    height: 250px; /* Set height of the image */
+    margin-right: 30px;  /* Space between the image and the content */
+    margin-left: 20px; 
+    margin-bottom: 150px;
+}
+
+.left-side img {
+    width: 100%;   /* Make the image fit within the container */
+    height: auto;  /* Maintain aspect ratio */
+}
+
+/* Content on the right side */
+
+.right-side {
+    flex: 1; /* Takes up 1 part of the available space */
+    padding: 10px;
+    margin-right: 10px;  /* Add space to the left to make room for the image */
+}
+
+/* Spacing for the titles and paragraphs */
+
+h1 {
+    margin-top: 0px;  /* Remove space above h1 */
+    font-size: 34px
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;  /* Add space below h2 */
+    color: royalblue;
+  font-size: 15px;
+}
+
+p {
+    font-size: 0.9em;
+    line-height: 1.6;
+    color: darkgray;
+    margin-top: 0; /* Remove space above the paragraph */
+    margin-bottom: 20px; /* Add space below the paragraph */
+}
+
+
+/* Section Below the Title and Paragraph */
+
+.bottom-section {
+    display: grid; /* Use CSS grid to create a grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Create two equal-width columns */
+    gap: 0px; /* Space between sections */
+    margin-top: 20px; /* Space between the paragraph and the bottom sections */
+}
+
+.bottom-section > div {
+    background-color: white; /* Light background for each section */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h3 {
+    margin-top: 0; /* Remove top margin from headings */
+    font-size: 1.2em;
+}
+
+.villa, .apartment {
+    background-color: white; /* Different background for Villa and Apartment */
+}
+
+.office p, .villa p, .apartment p {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+
+h1, h2, h3, p {
+    font-family: 'Poppins', sans-serif; /* Apply Poppins to titles and paragraphs */
+}
+
+h1, h2, h3, p, .bottom-section{
+    margin-right: 10px;
+}
+
+
+/*Debut du footer*/
+.footer{
+    background-color: #111725;
+    padding: 80px 135px;
+    
+}
+.footer1{
+    display: flex;
+    gap: 650px;
+}
+.text-footer{
+    color: #FFFFFF;
+}
+.button-footer img{
+    height: 15px;
+    width: 20px;
+}
+.custom-button1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 8px;
+    border: 2px solid #fb5607;
+    border-radius: 20px;
+    background-color: #fb5607;
+    color: #fff;
+    cursor: pointer;
+}
+.custom-button1:hover{
+    background-color: #ff7b25;
+    border-color: #ff7b25;
+}
+.button-footer img {
+    height: 10px;
+    width: 20px;
+}
+.footer2{
+    display: flex;
+    gap: 100px;
+    margin-top: 40px;
+}
+.contact-us{
+    color: #FFFFFF;
+}
+.contact-us p{
+    color: #cdcdcd;
+}
+.popular-searches{
+    color: #ffffff;
+}
+
+.popular-searches p{
+    color: #cdcdcd;
+}
+.quick-links{
+    color: #FFFFFF;
+    
+}
+.quick-links a{
+    text-decoration: none;
+    color: #FFFFFF;  
+}
+.quick-links li {
+    margin-bottom: 10px;
+}
+.quick-links a{
+    color: #cdcdcd;
+}
+.quick-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+.newsletter{
+    color: #FFFFFF;
+}
+.newsletter p{
+    color: #cdcdcd;
+}
+.rounded-block{
+    background-color: #ffffff;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.rounded-block img{
+    height: 30px;
+    width: 30px;
+    
+}
+.all-rights{
+    color: #FFFFFF;
+    margin-top: 100px;
+    text-align: center;
+}
+.nom-couleur{
+    color:#fb5607 ;
+}
